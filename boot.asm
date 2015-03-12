@@ -5,13 +5,11 @@ FLAGS  	    equ  MBALIGN | MEMINFO
 MAGIC       equ  0x1BADB002
 CHECKSUM    equ -(MAGIC + FLAGS)
 
-
 section .multiboot
 	align 4
 	dd MAGIC
 	dd FLAGS
 	dd CHECKSUM
-
 
 section .bss
 	align 4
