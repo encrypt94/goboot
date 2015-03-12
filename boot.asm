@@ -13,10 +13,10 @@ section .multiboot
 	dd CHECKSUM
 
 
-section .bootstrap_stack
+section .bss
 	align 4
 stack_bottom:
-	times 16384 db 0
+	resb 16384
 stack_top:
  
 section .text
