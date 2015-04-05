@@ -32,3 +32,9 @@ vagrant$ exit
 $ make boot
 
 ```
+
+## Interesting projects
+
+* https://github.com/charliesome/rustboot
+  * https://github.com/thesam/rustboot/
+* https://github.com/tgascoigne/goose
